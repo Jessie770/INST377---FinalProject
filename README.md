@@ -1,4 +1,4 @@
-# INST377---Final-Project
+# INST377 - Final Project
 # Name: ( ):
 # Description: 
 # Developer Manual: 
