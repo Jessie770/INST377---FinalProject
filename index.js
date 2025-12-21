@@ -60,3 +60,18 @@ app.post('/explorer', async (req, res) => {
 app.listen(port, () => {
   console.log('App is available on port:', port);
 });
+
+
+
+
+// app.use(express.static(__dirname + '/public'));
+
+
+// app.get('/', (req, res) => {
+//   res.sendFile('public/Home.html', { root: __dirname });
+// });
+ 
+
+
+
+
