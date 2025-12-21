@@ -1,0 +1,19 @@
+body {
+    background-color:rgb(227, 239, 252);
+    font-family: cursive;
+}
+
+#main-nav {
+    background-color: rgb(213, 217, 251);
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+}
+
+#main-nav li:hover {
+    background-color: rgb(177, 203, 251);
+}
