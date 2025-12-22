@@ -18,4 +18,5 @@ Types of holidays include:
 
 By: Jessie Zhang
 
-# Developer Manual:
+<a href="DeveloperManual.md" target="_blank">Developer Manual</a>
+

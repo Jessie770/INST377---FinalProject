@@ -1,0 +1,1 @@
+To install this application, go to the GitHub page and click on the green code button. Under it, go to SSH, copy the SSH-key, and open up Git Bash. Here you would type in the command "git clone (SSH-key)" and it'll then ask you to type in the password you created. Once your're down, you can now open this application in VS Code. 
