@@ -38,21 +38,21 @@ async function loadExplorerData() {
       table.appendChild(tableRow);
 
       // Adding Data to Table
-      resultJson.forEach((customer) => {
-        const customerTableRow = document.createElement('tr');
-        const customerTableplace = document.createElement('td');
-        const customerTablefunFact = document.createElement('td');
-        const customerTablelanguage = document.createElement('td');
+      resultJson.forEach((explorer) => {
+        const explorerTableRow = document.createElement('tr');
+        const explorerTableplace = document.createElement('td');
+        const explorerTablefunFact = document.createElement('td');
+        const explorerTablelanguage = document.createElement('td');
 
-        customerTableplace.innerHTML = customer['explorer_place'];
-        customerTablefunFact.innerHTML = customer['explorer_fun_fact'];
-        customerTablelanguage.innerHTML = customer['explorer_language'];
+        explorerTableplace.innerHTML = explorer['explorer_place'];
+        explorerTablefunFact.innerHTML = explorer['explorer_fun_fact'];
+        explorerTablelanguage.innerHTML = explorer['explorer_language'];
 
-        customerTableRow.appendChild(customerTableplace);
-        customerTableRow.appendChild(customerTablefunFact);
-        customerTableRow.appendChild(customerTablelanguage);
+        explorerTableRow.appendChild(explorerTableplace);
+        explorerTableRow.appendChild(explorerTablefunFact);
+        explorerTableRow.appendChild(explorerTablelanguage);
 
-        table.appendChild(customerTableRow);
+        table.appendChild(explorerTableRow);
       });
 
       const preExistingTable = document.getElementById('explorerInfo');
